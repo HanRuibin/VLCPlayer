@@ -1,0 +1,6 @@
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\HanTemp.ViewVideosModule.csprojResolveAssemblyReference.cache
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\Views\IngestWindow.g.cs
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\Views\UCPlayList.g.cs
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\Views\ViewVideosWindow.g.cs
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\HanTemp.ViewVideosModule_MarkupCompile.cache
+C:\han\test\HanTemp\HanTemp.ViewVideosModule\obj\x86\Debug\HanTemp.ViewVideosModule_MarkupCompile.lref

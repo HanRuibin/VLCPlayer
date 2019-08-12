@@ -1,0 +1,7 @@
+C:\han\test\HanTemp\HanTemp\bin\x86\Debug\HanTemp.exe.config
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\HanTemp.csprojResolveAssemblyReference.cache
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\MainWindow.g.cs
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\Views\LeftWindow.g.cs
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\App.g.cs
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\HanTemp_MarkupCompile.cache
+C:\han\test\HanTemp\HanTemp\obj\x86\Debug\HanTemp_MarkupCompile.lref

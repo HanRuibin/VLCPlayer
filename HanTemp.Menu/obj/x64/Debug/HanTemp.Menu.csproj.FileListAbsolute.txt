@@ -1,0 +1,4 @@
+C:\han\test\HanTemp\HanTemp.Menu\obj\x64\Debug\HanTemp.Menu.csprojResolveAssemblyReference.cache
+C:\han\test\HanTemp\HanTemp.Menu\obj\x64\Debug\Views\Menu.g.cs
+C:\han\test\HanTemp\HanTemp.Menu\obj\x64\Debug\HanTemp.Menu_MarkupCompile.cache
+C:\han\test\HanTemp\HanTemp.Menu\obj\x64\Debug\HanTemp.Menu_MarkupCompile.lref

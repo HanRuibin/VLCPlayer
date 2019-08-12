@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="HanTemp.ViewVideosModule.Views.ViewVideosWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HanTemp.ViewVideosModule.Views"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:winform="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        mc:Ignorable="d" Background="{StaticResource BackGroundBrush}"
+        d:DesignHeight="300" d:DesignWidth="300"
+        >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="21*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="34*"/>
+        </Grid.RowDefinitions>
+        <Border x:Name="Player" Background="{StaticResource BackGroundBrush}" BorderBrush="Green" BorderThickness="0.5" Grid.Row="0" Grid.Column="0">
+            <WindowsFormsHost Background="{StaticResource BackGroundBrush}">
+                <winform:PictureBox x:Name="videoPanel" SizeMode="Normal"/>
+            </WindowsFormsHost>
+        </Border>
+        <Border x:Name="VUMeter" BorderBrush="{StaticResource BackGroundBrush}" BorderThickness="0.5" Grid.Row="0" Grid.Column="1">
+            
+        </Border>
+
+    </Grid>
+</UserControl>

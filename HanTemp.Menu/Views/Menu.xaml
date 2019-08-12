@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="HanTemp.Menu.Views.Menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HanTemp.Menu.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:views="clr-namespace:HanTemp.Menu.Views"
+             xmlns:control="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:inf="clr-namespace:HanTemp.Infrastructure.Commands;assembly=HanTemp.Infrastructure"
+             xmlns:const="clr-namespace:HanTemp.Infrastructure.Constants;assembly=HanTemp.Infrastructure"
+             mc:Ignorable="d" 
+             xmlns:loc="http://wpflocalizeextension.codeplex.com"
+             loc:LocalizeDictionary.DesignCulture="zh-CN"
+             loc:ResxLocalizationProvider.DefaultAssembly="HanTemp.Menu"
+             loc:ResxLocalizationProvider.DefaultDictionary="Resources"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <StackPanel Orientation="Horizontal" >
+            <Button Content="{loc:Loc transferManager}" Command="{x:Static inf:ApplicationCommands.ShowCommand}" 
+                    CommandParameter="{x:Static const:FlyoutNames.TransferModuleFlyoutName}"/>
+            <Button Content="{loc:Loc ingestor}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}"
+                    CommandParameter="{x:Static const:ModuleNames.IngestModel}"
+                    />
+            <Button Content="{loc:Loc videoEditor}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}" 
+                    CommandParameter="{x:Static const:ModuleNames.ViewVideosModel}"
+                    />
+            <Button Content="{loc:Loc playList}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}"
+                    CommandParameter="{x:Static const:ModuleNames.PlayListModel}">
+            </Button>
+            <Button Content="{loc:Loc vlcOpen}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}"
+                    CommandParameter="{x:Static const:ModuleNames.VLCPlayerModel}">
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

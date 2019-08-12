@@ -1,0 +1,7 @@
+C:\han\test\HanTemp\LogLib\bin\x64\Release\NLog.config
+C:\han\test\HanTemp\LogLib\bin\x64\Release\LogLib.dll
+C:\han\test\HanTemp\LogLib\bin\x64\Release\LogLib.pdb
+C:\han\test\HanTemp\LogLib\bin\x64\Release\NLog.dll
+C:\han\test\HanTemp\LogLib\bin\x64\Release\NLog.xml
+C:\han\test\HanTemp\LogLib\obj\x64\Release\LogLib.dll
+C:\han\test\HanTemp\LogLib\obj\x64\Release\LogLib.pdb

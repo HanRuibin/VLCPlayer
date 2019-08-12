@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="HanTemp.MenuModule.Views.Menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HanTemp.MenuModule.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="MinWidth" Value="80"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="迁移管理"/>
+            <Button Content="播表" />
+            <Button Content="设置" />
+            <Button Content="素材"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

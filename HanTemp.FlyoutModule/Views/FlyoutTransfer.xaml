@@ -1,0 +1,26 @@
+﻿<metro:Flyout x:Class="HanTemp.FlyoutModule.Views.FlyoutTransfer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HanTemp.FlyoutModule.Views"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True" Width="300"
+             mc:Ignorable="d" Position="Right" Header="迁移设置"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="迁移路径:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" metro:TextBoxHelper.WatermarkWrapping="Wrap" VerticalAlignment="Center" Margin="2"/>
+    </Grid>
+</metro:Flyout>
