@@ -5,6 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:HanTemp.VLC.Views"
              xmlns:prism="http://prismlibrary.com/"
+             xmlns:loc="http://wpflocalizeextension.codeplex.com"
+             loc:LocalizeDictionary.DesignCulture="zh-CN"
+             loc:ResxLocalizationProvider.DefaultAssembly="HanTemp.VLC"
+             loc:ResxLocalizationProvider.DefaultDictionary="Resources"
              xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
              prism:ViewModelLocator.AutoWireViewModel="True"
              xmlns:vlc="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf"
@@ -15,11 +19,14 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <vlc:VlcControl x:Name="vlcControl"/>
+        <Grid Grid.Row="0" Background="Black">
+            <Image x:Name="image" Stretch="UniformToFill"/>
         </Grid>
         <StackPanel FlowDirection="LeftToRight" Grid.Row="1" Orientation="Horizontal">
-            <Button Content="Open" metro:ButtonHelper.CornerRadius="5" VerticalAlignment="Center" metro:ButtonHelper.PreserveTextCase="True"/>
+            <Button x:Name="btn_open" Content="{loc:Loc Open}" Click="btn_open_Click"/>
+            <Button x:Name="btn_play" Content="{loc:Loc play}" Click="btn_play_Click"/>
+            <Button x:Name="btn_pause" Content="{loc:Loc pause}" Click="btn_pause_Click"/>
+            <!--<Label x:Name="vlc_duration" FontFamily="ZhunYuan" Content="00:00:00" HorizontalAlignment="Right" VerticalAlignment="Center"/>-->
         </StackPanel>
     </Grid>
 </UserControl>

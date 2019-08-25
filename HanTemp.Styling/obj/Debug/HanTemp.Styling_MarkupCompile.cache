@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\han\test\VLC\HanTemp\HanTemp.Styling\obj\Debug\
+G:\han\Git\VLCPlayer\VLCPlayer\HanTemp.Styling\obj\Debug\
 HanTemp.Styling
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 61638347088
 
 3-630027162
-15-1116762120
+15-730828150
 Styles\Brushes.xaml;Styles\Button.xaml;Styles\HanTempStyles.xaml;Styles\Lable.xaml;Styles\Visuals.xaml;Styles\WindowStyle.xaml;
 
 False

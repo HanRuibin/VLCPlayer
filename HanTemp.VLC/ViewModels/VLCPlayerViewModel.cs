@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Prism.Mvvm;
 using System.Windows.Input;
 using Prism.Commands;
+using Vlc.DotNet.Wpf;
+using Prism.Ioc;
 
 namespace HanTemp.VLC.ViewModels
 {
@@ -13,6 +15,7 @@ namespace HanTemp.VLC.ViewModels
     {
         public VLCPlayerViewModel()
         {
+
             OpenCommand = new DelegateCommand<object>(OpenCommandExecute);
         }
 
@@ -22,5 +25,6 @@ namespace HanTemp.VLC.ViewModels
         }
 
         public ICommand OpenCommand { get; set; }
+        public VlcVideoSourceProvider SourceProvider { get; set; }
     }
 }

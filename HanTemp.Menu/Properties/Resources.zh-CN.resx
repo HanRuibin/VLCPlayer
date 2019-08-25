@@ -132,4 +132,7 @@
   <data name="videoEditor" xml:space="preserve">
     <value>素材编辑器</value>
   </data>
+  <data name="vlcOpen" xml:space="preserve">
+    <value>VLC播放器</value>
+  </data>
 </root>

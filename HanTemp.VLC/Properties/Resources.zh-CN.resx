@@ -117,22 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ingestor" xml:space="preserve">
-    <value>Ingestor</value>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
   </data>
-  <data name="monitor" xml:space="preserve">
-    <value>Monitor</value>
+  <data name="pause" xml:space="preserve">
+    <value>暂停</value>
   </data>
-  <data name="playList" xml:space="preserve">
-    <value>PlayList</value>
-  </data>
-  <data name="transferManager" xml:space="preserve">
-    <value>Transfer</value>
-  </data>
-  <data name="videoEditor" xml:space="preserve">
-    <value>VideoEditor</value>
-  </data>
-  <data name="vlcOpen" xml:space="preserve">
-    <value>VLC</value>
+  <data name="play" xml:space="preserve">
+    <value>播放</value>
   </data>
 </root>

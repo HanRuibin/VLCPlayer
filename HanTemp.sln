@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanTemp", "HanTemp\HanTemp.csproj", "{EA115DB7-8728-4ACE-8A42-F4BA3D5FE193}"
 EndProject
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanTemp.FlyoutModule", "HanTemp.FlyoutModule\HanTemp.FlyoutModule.csproj", "{746D65F2-B862-4F44-A433-11F43743DDBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanTemp.VLC", "HanTemp.VLC\HanTemp.VLC.csproj", "{A6C067EB-71F1-40BC-B2AD-1D8D45A5119C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanTemp.Player", "HanTemp.Player\HanTemp.Player.csproj", "{5386621F-43E2-42F3-B434-37EF5091AE2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,18 +113,6 @@ Global
 		{A6C067EB-71F1-40BC-B2AD-1D8D45A5119C}.Release|x64.Build.0 = Release|Any CPU
 		{A6C067EB-71F1-40BC-B2AD-1D8D45A5119C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6C067EB-71F1-40BC-B2AD-1D8D45A5119C}.Release|x86.Build.0 = Release|Any CPU
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|x64.ActiveCfg = Debug|x64
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|x64.Build.0 = Debug|x64
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|x86.ActiveCfg = Debug|x86
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Debug|x86.Build.0 = Debug|x86
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|x64.ActiveCfg = Release|x64
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|x64.Build.0 = Release|x64
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|x86.ActiveCfg = Release|x86
-		{5386621F-43E2-42F3-B434-37EF5091AE2D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

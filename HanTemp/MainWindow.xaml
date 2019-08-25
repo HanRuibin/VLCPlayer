@@ -8,7 +8,7 @@
        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
         prism:ViewModelLocator.AutoWireViewModel="True"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
-        Title="CDV.View" Height="888" Width="1100">
+        Title="CDV.View" Height="688" Width="1100" WindowState="Maximized">
     <metro:MetroWindow.RightWindowCommands>
         <metro:WindowCommands x:Name="RightWindowCommandsRegion"/>
     </metro:MetroWindow.RightWindowCommands>
@@ -22,7 +22,7 @@
         </Grid.RowDefinitions>
         <ContentControl Background="{StaticResource BackGroundBrush}" prism:RegionManager.RegionName="MainRegion" Margin="0 0 0 20">
         </ContentControl>
-        <Label Grid.Row="1" Content="@ By Hanruibin WPF开发" Foreground="{DynamicResource Foreground}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="1" Content="@ By dabin WPF开发" Foreground="{DynamicResource Foreground}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
 
 
 
