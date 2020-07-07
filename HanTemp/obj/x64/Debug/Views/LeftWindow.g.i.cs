@@ -67,7 +67,7 @@ namespace HanTemp.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HanTemp;component/views/leftwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CS播放器;component/views/leftwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\LeftWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

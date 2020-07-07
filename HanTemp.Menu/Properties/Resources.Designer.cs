@@ -70,6 +70,15 @@ namespace HanTemp.Menu.Properties {
         }
         
         /// <summary>
+        ///   查找类似 @mediaPlayer 的本地化字符串。
+        /// </summary>
+        internal static string mediaPlayer {
+            get {
+                return ResourceManager.GetString("mediaPlayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 @monitor 的本地化字符串。
         /// </summary>
         internal static string monitor {

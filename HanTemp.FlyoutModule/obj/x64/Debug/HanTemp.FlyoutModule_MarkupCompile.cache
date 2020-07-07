@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\han\test\HanTemp\HanTemp.FlyoutModule\obj\x64\Debug\
+C:\han\test\VLC\VLCPlayer\HanTemp.FlyoutModule\obj\x64\Debug\
 HanTemp.FlyoutModule
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 22037620564
 
 7-510001180
-1723158690
+17-1366992060
 Views\FlyoutSetting.xaml;Views\FlyoutTransfer.xaml;
 
 False

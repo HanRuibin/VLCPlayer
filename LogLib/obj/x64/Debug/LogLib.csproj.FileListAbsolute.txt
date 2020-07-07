@@ -5,3 +5,11 @@ C:\han\test\HanTemp\LogLib\bin\x64\Debug\NLog.dll
 C:\han\test\HanTemp\LogLib\bin\x64\Debug\NLog.xml
 C:\han\test\HanTemp\LogLib\obj\x64\Debug\LogLib.dll
 C:\han\test\HanTemp\LogLib\obj\x64\Debug\LogLib.pdb
+C:\han\test\VLC\VLCPlayer\LogLib\bin\x64\Debug\NLog.config
+C:\han\test\VLC\VLCPlayer\LogLib\bin\x64\Debug\LogLib.dll
+C:\han\test\VLC\VLCPlayer\LogLib\bin\x64\Debug\LogLib.pdb
+C:\han\test\VLC\VLCPlayer\LogLib\bin\x64\Debug\NLog.dll
+C:\han\test\VLC\VLCPlayer\LogLib\bin\x64\Debug\NLog.xml
+C:\han\test\VLC\VLCPlayer\LogLib\obj\x64\Debug\LogLib.dll
+C:\han\test\VLC\VLCPlayer\LogLib\obj\x64\Debug\LogLib.pdb
+C:\han\test\VLC\VLCPlayer\LogLib\obj\x64\Debug\LogLib.csprojResolveAssemblyReference.cache

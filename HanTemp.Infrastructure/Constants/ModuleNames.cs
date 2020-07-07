@@ -13,5 +13,6 @@ namespace HanTemp.Infrastructure.Constants
         public static string IngestModel = "IngestModel";
         public static string MonitorModel = "MonitorModel";
         public static string VLCPlayerModel = "VLCPlayerModel";
+        public static string MedialayerModel = "MedialayerModel";
     }
 }

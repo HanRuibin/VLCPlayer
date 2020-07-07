@@ -120,6 +120,9 @@
   <data name="ingestor" xml:space="preserve">
     <value>素材管理</value>
   </data>
+  <data name="mediaPlayer" xml:space="preserve">
+    <value>媒体播放器</value>
+  </data>
   <data name="monitor" xml:space="preserve">
     <value>素材预览</value>
   </data>

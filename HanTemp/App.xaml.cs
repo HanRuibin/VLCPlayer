@@ -50,6 +50,7 @@ namespace HanTemp
             moduleCatalog.AddModule(typeof(HanTemp.Menu.MenuModule));
             moduleCatalog.AddModule(typeof(HanTemp.FlyoutModule.FlyoutModule));
             moduleCatalog.AddModule(typeof(HanTemp.VLC.VLCPlayerModule));
+            moduleCatalog.AddModule(typeof(CDVMediaPlayer.MediaPlayerModule));
         }
     }
 }

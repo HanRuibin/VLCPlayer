@@ -120,6 +120,9 @@
   <data name="ingestor" xml:space="preserve">
     <value>@ingestor</value>
   </data>
+  <data name="mediaPlayer" xml:space="preserve">
+    <value>@mediaPlayer</value>
+  </data>
   <data name="monitor" xml:space="preserve">
     <value>@monitor</value>
   </data>

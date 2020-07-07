@@ -13,7 +13,7 @@ namespace HanTemp.Infrastructure.Services
     {
         public LocalizerService()
         {
-            string culture = "en-US";
+            string culture = "zh-CN";
             this.SupportedLanguages = CultureInfo.GetCultures(CultureTypes.AllCultures).Where(c => c.IetfLanguageTag.Equals("en-US") || c.IetfLanguageTag.Equals("zh-CN")).ToList<CultureInfo>();
             this.SetLocale(culture);
         }

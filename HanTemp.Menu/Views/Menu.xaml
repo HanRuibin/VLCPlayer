@@ -33,6 +33,9 @@
             <Button Content="{loc:Loc vlcOpen}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}"
                     CommandParameter="{x:Static const:ModuleNames.VLCPlayerModel}">
             </Button>
+            <Button Content="{loc:Loc mediaPlayer}" Command="{x:Static inf:ApplicationCommands.NavigateCommand}"
+                    CommandParameter="{x:Static const:ModuleNames.MedialayerModel}">
+            </Button>
         </StackPanel>
     </Grid>
 </UserControl>

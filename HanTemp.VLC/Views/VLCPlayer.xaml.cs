@@ -36,10 +36,12 @@ namespace HanTemp.VLC.Views
             var libDirectory = new DirectoryInfo(System.IO.Path.Combine(currentDirectory, "libvlc", IntPtr.Size == 4 ? "win-x86" : "win-x64"));
             //this.vlcControl.SourceProvider.CreatePlayer(libDirectory);
             //this.vlcControl.SourceProvider.MediaPlayer.Play(new FileInfo(@"D:\迅雷下载\[阳光电影www.ygdy8.net].追龙.HD.720p.国语中字.mkv"));
-
-            vlcVideoSourceProvider = new VlcVideoSourceProvider(this.Dispatcher);
-            vlcVideoSourceProvider.CreatePlayer(libDirectory);
-            SetBindings();
+            if(vlcVideoSourceProvider==null)
+            {
+                vlcVideoSourceProvider = new VlcVideoSourceProvider(this.Dispatcher);
+                vlcVideoSourceProvider.CreatePlayer(libDirectory);
+                SetBindings();
+            }
         }
 
         private void SetBindings()

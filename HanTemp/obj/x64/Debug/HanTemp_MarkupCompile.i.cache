@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-G:\han\Git\VLCPlayer\VLCPlayer\HanTemp\obj\x64\Debug\
+C:\han\test\VLC\VLCPlayer\HanTemp\obj\x64\Debug\
 HanTemp
 none
 false
 DEBUG;TRACE
-G:\han\Git\VLCPlayer\VLCPlayer\HanTemp\App.xaml
+C:\han\test\VLC\VLCPlayer\HanTemp\App.xaml
 2-287766073
 
-14-241082719
-311106043898
+14-134255956
+321288234903
 MainWindow.xaml;Views\LeftWindow.xaml;
 
 True
